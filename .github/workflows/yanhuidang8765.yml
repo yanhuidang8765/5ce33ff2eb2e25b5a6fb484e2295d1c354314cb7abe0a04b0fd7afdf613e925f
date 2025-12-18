@@ -1,9 +1,9 @@
 name: yanhuidang8765
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 1/6 * * *'
-
+    - cron: '44 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,13 +12,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: yanhuidang8765
         env:
-          jw031: ${{ secrets.jw031 }}
+          e103: ${{ secrets.e103 }}
         run: |
-          echo $jw031 | jq -r .bc75 | /bin/bash
-          echo $hza85 | jq -r .sll176 | /bin/bash
-          echo $zbi46422 | jq -r .up9307 | /bin/bash
-          echo $xqjyt40438 | jq -r .pkl2971 | /bin/bash
-          echo $i93360 | jq -r .hfjlm5560 | /bin/bash
-          echo $s73280 | jq -r .k49 | /bin/bash
-          echo $kk1064 | jq -r .pdg027 | /bin/bash
+          echo $e103 | jq -r .u72869 | /bin/bash
+          echo $n9 | jq -r .wvu623 | /bin/bash
+          echo $dqkn101 | jq -r .wjgnt32 | /bin/bash
+          echo $dbep42 | jq -r .xdu50 | /bin/bash
+          echo $fxb07 | jq -r .cg539 | /bin/bash
 
